@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop_app/constants/constants.dart';
-import 'package:shop_app/models/product_model.dart';
+import 'package:constants/constants.dart';
+import 'package:models/models.dart';
 import 'package:shop_app/screens/details/details_screen.dart';
 
 class ProductCard extends StatelessWidget {
@@ -39,7 +39,7 @@ class ProductCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Hero(
-                    tag: product.productId.toString(),
+                    tag: product.productID.toString(),
                     child: Image.asset(product.images[0]),
                   ),
                 ),
@@ -69,16 +69,12 @@ class ProductCard extends StatelessWidget {
                       height: 28,
                       width: 28,
                       decoration: BoxDecoration(
-                        color: product.isFavourite
-                            ? kPrimaryColor.withOpacity(0.15)
-                            : kSecondaryColor.withOpacity(0.1),
+                        color: product.isFavourite ? kPrimaryColor.withOpacity(0.15) : kSecondaryColor.withOpacity(0.1),
                         shape: BoxShape.circle,
                       ),
                       child: SvgPicture.asset(
                         "assets/icons/Heart Icon_2.svg",
-                        color: product.isFavourite
-                            ? const Color(0xFFFF4848)
-                            : const Color(0xFFDBDEE4),
+                        color: product.isFavourite ? const Color(0xFFFF4848) : const Color(0xFFDBDEE4),
                       ),
                     ),
                   ),

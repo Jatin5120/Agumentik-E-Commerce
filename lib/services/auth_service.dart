@@ -1,15 +1,15 @@
 import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shop_app/controllers/controllers.dart';
 
-import '../constants/constants.dart';
-import '../helpers/helpers.dart';
+import 'package:constants/constants.dart';
+import 'package:helpers/helpers.dart';
 import 'firebase_service.dart';
 
 abstract class AuthService {

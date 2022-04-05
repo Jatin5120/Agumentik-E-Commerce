@@ -15,7 +15,7 @@ class _Body extends StatelessWidget {
               SizedBox(height: Get.height * 0.05),
               const Text(
                 "OTP Verification",
-                style: headingStyle,
+                style: kHeadingStyle,
               ),
               const Text("We sent your code to +1 898 860 ***"),
               buildTimer(),

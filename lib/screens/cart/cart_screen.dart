@@ -1,12 +1,13 @@
+import 'package:constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop_app/components/components.dart';
-import 'package:shop_app/constants/constants.dart';
-import 'package:shop_app/models/cart_model.dart';
+import 'package:components/components.dart';
+
+import 'package:models/models.dart';
 
 part 'components/body.dart';
-part 'components/check_out_card.dart';
 part 'components/cart_card.dart';
+part 'components/check_out_card.dart';
 
 class CartScreen extends StatelessWidget {
   static String routeName = "/cart";

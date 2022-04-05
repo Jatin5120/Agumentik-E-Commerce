@@ -1,6 +1,6 @@
+import 'package:components/components.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/components/button.dart';
 import 'package:shop_app/screens/dashboard_screens/dashboard_screens.dart';
 
 part 'components/body.dart';

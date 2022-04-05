@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:shop_app/constants/constants.dart';
+import 'package:constants/constants.dart';
 
 class StorageController extends GetxController {
   final GetStorage _storage = GetStorage();

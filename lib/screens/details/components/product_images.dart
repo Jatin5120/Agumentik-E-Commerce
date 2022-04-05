@@ -23,7 +23,7 @@ class _ProductImagesState extends State<ProductImages> {
           child: AspectRatio(
             aspectRatio: 1,
             child: Hero(
-              tag: widget.product.productId.toString(),
+              tag: widget.product.productID.toString(),
               child: Image.asset(widget.product.images[selectedImage]),
             ),
           ),
@@ -32,8 +32,7 @@ class _ProductImagesState extends State<ProductImages> {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ...List.generate(widget.product.images.length,
-                (index) => buildSmallProductPreview(index)),
+            ...List.generate(widget.product.images.length, (index) => buildSmallProductPreview(index)),
           ],
         )
       ],

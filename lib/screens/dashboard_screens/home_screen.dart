@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:shop_app/components/product_card.dart';
-import 'package:shop_app/constants/constants.dart';
-import 'package:shop_app/models/models.dart';
+import 'package:constants/constants.dart';
+import 'package:models/models.dart';
 import 'package:shop_app/screens/cart/cart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -246,10 +246,10 @@ class _PopularProducts extends StatelessWidget {
           child: Row(
             children: [
               ...List.generate(
-                demoProducts.length,
+                kDemoProducts.length,
                 (index) {
-                  if (demoProducts[index].isPopular) {
-                    return ProductCard(product: demoProducts[index]);
+                  if (kDemoProducts[index].isPopular) {
+                    return ProductCard(product: kDemoProducts[index]);
                   }
 
                   return const SizedBox.shrink(); // here by default width and height is 0

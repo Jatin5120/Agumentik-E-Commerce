@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shop_app/components/components.dart';
-import 'package:shop_app/constants/constants.dart';
-import 'package:shop_app/helpers/helpers.dart';
+import 'package:components/components.dart';
+import 'package:constants/constants.dart';
+import 'package:helpers/helpers.dart';
 import 'package:shop_app/screens/forgot_password/forgot_password_screen.dart';
 import 'package:shop_app/services/services.dart';
 

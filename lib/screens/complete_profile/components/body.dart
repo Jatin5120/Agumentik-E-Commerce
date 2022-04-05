@@ -14,7 +14,7 @@ class _Body extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(height: Get.height * 0.03),
-                const Text("Complete Profile", style: headingStyle),
+                const Text("Complete Profile", style: kHeadingStyle),
                 const Text(
                   "Complete your details or continue  \nwith social media",
                   textAlign: TextAlign.center,
