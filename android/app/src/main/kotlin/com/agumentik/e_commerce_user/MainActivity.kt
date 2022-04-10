@@ -1,4 +1,4 @@
-package com.example.agumentik_ecommerce
+package com.agumentik.e_commerce_user
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/components/components.dart';
-import 'package:shop_app/controllers/controllers.dart';
+import 'package:e_commerce_user/components/components.dart';
+import 'package:e_commerce_user/controllers/controllers.dart';
 
 import 'dashboard_screens.dart';
 

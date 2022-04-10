@@ -1,14 +1,14 @@
 import 'package:flutter/widgets.dart';
-import 'package:shop_app/screens/cart/cart_screen.dart';
-import 'package:shop_app/screens/complete_profile/complete_profile_screen.dart';
-import 'package:shop_app/screens/dashboard_screens/dashboard_screens.dart';
-import 'package:shop_app/screens/details/details_screen.dart';
-import 'package:shop_app/screens/forgot_password/forgot_password_screen.dart';
-import 'package:shop_app/screens/login_success/login_success_screen.dart';
-import 'package:shop_app/screens/otp/otp_screen.dart';
-import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
-import 'package:shop_app/screens/sign_up/sign_up_screen.dart';
-import 'package:shop_app/screens/welcome/welcome_screen.dart';
+import 'package:e_commerce_user/screens/cart/cart_screen.dart';
+import 'package:e_commerce_user/screens/complete_profile/complete_profile_screen.dart';
+import 'package:e_commerce_user/screens/dashboard_screens/dashboard_screens.dart';
+import 'package:e_commerce_user/screens/details/details_screen.dart';
+import 'package:e_commerce_user/screens/forgot_password/forgot_password_screen.dart';
+import 'package:e_commerce_user/screens/login_success/login_success_screen.dart';
+import 'package:e_commerce_user/screens/otp/otp_screen.dart';
+import 'package:e_commerce_user/screens/sign_in/sign_in_screen.dart';
+import 'package:e_commerce_user/screens/sign_up/sign_up_screen.dart';
+import 'package:e_commerce_user/screens/welcome/welcome_screen.dart';
 
 // We use name route
 // All our routes will be available here

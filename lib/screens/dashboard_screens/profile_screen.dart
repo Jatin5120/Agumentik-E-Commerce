@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:constants/constants.dart';
-import 'package:shop_app/controllers/auth_controller.dart';
+import 'package:e_commerce_user/controllers/auth_controller.dart';
 
 class ProfileScreen extends StatelessWidget {
   static String routeName = "/profile";

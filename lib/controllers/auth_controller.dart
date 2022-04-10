@@ -3,9 +3,9 @@ import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:shop_app/controllers/controllers.dart';
-import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
-import 'package:shop_app/screens/welcome/welcome_screen.dart';
+import 'package:e_commerce_user/controllers/controllers.dart';
+import 'package:e_commerce_user/screens/sign_in/sign_in_screen.dart';
+import 'package:e_commerce_user/screens/welcome/welcome_screen.dart';
 
 import '../screens/dashboard_screens/dashboard_screens.dart';
 

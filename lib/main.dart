@@ -3,8 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:shop_app/controllers/controllers.dart';
 
+import 'package:e_commerce_user/controllers/controllers.dart';
 import 'constants/constants.dart';
 import 'screens/welcome/welcome_screen.dart';
 
@@ -17,24 +17,21 @@ void main() async {
 }
 
 void initializeControllers() {
-  Get.put(StorageController());
-  Get.put(UserDataController());
-  Get.put(NavController());
-  Get.put(AuthController());
+  Get.put<StorageController>(StorageController());
+  Get.put<UserDataController>(UserDataController());
+  Get.put<NavController>(NavController());
+  Get.put<AuthController>(AuthController());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Agumentik E-Commerce',
       theme: kThemeData,
-      // home: SplashScreen(),
-      // We use routeName so that we dont need to remember the name
       initialRoute: WelcomeScreen.routeName,
       routes: routes,
     );

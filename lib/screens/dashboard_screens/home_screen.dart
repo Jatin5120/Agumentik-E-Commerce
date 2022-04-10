@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/components/product_card.dart';
+import 'package:e_commerce_user/components/product_card.dart';
 import 'package:constants/constants.dart';
 import 'package:models/models.dart';
-import 'package:shop_app/screens/cart/cart_screen.dart';
+import 'package:e_commerce_user/screens/cart/cart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   static String routeName = "/home";
